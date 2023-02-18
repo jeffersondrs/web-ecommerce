@@ -7,13 +7,13 @@ export default function Navegation() {
   return (
     <div>
       <div className="navegation">
-        <div className="flex flex-row bg-sky-200 justify-between px-5 items-center rounded-md">
+        <div className="flex flex-row justify-between px-5 items-center rounded-md bg-sky-500 h-14 py-2">
           <div className="navegation__logo">
             <Link to="/">
               <img className="w-12" src={imagemLogo} alt="logo" />
             </Link>
           </div>
-          <div className="flex flex-row flex-wrap h-12 justify-between items-center text-black uppercase navegation__menu">
+          <div className="flex flex-row flex-wrap h-12 justify-between items-center uppercase navegation__menu">
             <Link className="navegation__menu-item" to="/">
               Home
             </Link>
