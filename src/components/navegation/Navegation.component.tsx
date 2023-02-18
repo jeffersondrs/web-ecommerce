@@ -13,7 +13,7 @@ export default function Navegation() {
               <img className="w-12" src={imagemLogo} alt="logo" />
             </Link>
           </div>
-          <div className="flex flex-row h-12 justify-between items-center text-black uppercase w-80 navegation__menu">
+          <div className="flex flex-row flex-wrap h-12 justify-between items-center text-black uppercase navegation__menu">
             <Link className="navegation__menu-item" to="/">
               Home
             </Link>

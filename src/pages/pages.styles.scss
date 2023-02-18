@@ -1,51 +1,5 @@
-.home {
-    .directory {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        .menu-item {
-            flex: 1 1 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-            .content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                border: 1px solid black;
-                background-color: white;
-                padding: 2px;
-                img {
-                    width: 100px;
-
-                }
-
-                .title {
-                    font-weight: bold;
-                    margin-bottom: 6px;
-                    font-size: 22px;
-                    color: #4a4a4a;
-                }
-
-                .subtitle {
-                    font-weight: lighter;
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-}
-
 .product-home {
     background-image: url('https://images.unsplash.com/photo-1575975243243-5462a2054ed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
     background-size: cover;
     background-position: center;
-}
-
-.home-content{
-    display: flex;
-    flex-direction: column;
 }

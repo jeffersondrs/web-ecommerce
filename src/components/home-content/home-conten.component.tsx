@@ -4,7 +4,7 @@ import { GrDeliver } from "react-icons/gr";
 import { BsCashCoin, BsCreditCardFill } from "react-icons/bs";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import CardServices from "./card-services/Card-services.component";
+import CardServices from "./Card-services.component";
 
 export default function HomeContent() {
   return (

@@ -1,7 +1,8 @@
 .navegation {
-    background: rgb(186 230 253 / 0.4 );
+    background: rgb(186 230 253 / 0.4);
     padding: 5px 30px;
     z-index: 100;
+
     .navegation__logo {
         font-weight: 700;
         color: #000;
@@ -11,7 +12,19 @@
     .navegation__menu {
         display: flex;
         align-items: center;
-        font-size: .9em;
+        font-size: .9rem;
+        
+        .navegation__menu-item {
+            margin: 0 10px;
+            color: #000;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                color: #575353;
+            }
+        }
+
 
         .navegation__menu-item:hover {
 
