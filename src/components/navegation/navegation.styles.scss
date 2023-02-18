@@ -1,0 +1,21 @@
+.navegation {
+    background: rgb(186 230 253 / 0.4 );
+    padding: 5px 30px;
+    z-index: 100;
+    .navegation__logo {
+        font-weight: 700;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .navegation__menu {
+        display: flex;
+        align-items: center;
+        font-size: .9em;
+
+        .navegation__menu-item:hover {
+
+            color: #575353;
+        }
+    }
+}
