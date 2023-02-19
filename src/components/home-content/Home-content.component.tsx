@@ -267,7 +267,7 @@ export default function HomeContent() {
               type="submit"
               className="bg-orange-600 text-white rounded-sm p-2"
             >
-              Subscribe
+              Subscribe Now
             </button>
           </div>
         </form>
