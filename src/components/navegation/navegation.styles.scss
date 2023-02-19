@@ -1,6 +1,8 @@
 .navegation {
-    padding: 5px 30px;
+    padding: 5px 5px;
     z-index: 100;
+    width: 100%;
+    color: #ffffff;
 
     .navegation__logo {
         text-decoration: none;
@@ -11,14 +13,32 @@
         align-items: center;
         font-size: .9rem;
 
+        .navegation__menu-m {
+            font-size: .5rem;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            cursor: pointer;
+            width: 15ch;
+            border-radius: 5px;
+            padding: 5px 10px;
+            background-color: rgb(3, 144, 238);
+            transition: all .3s ease-in-out;
+            &:hover {
+                color: #ffffff;
+                background-color: rgb(27, 111, 167);
+
+            }
+        }
+
         .navegation__menu-item {
-            margin: 0 10px;
+            margin: 5px 20px;
             color: #ffffff;
             text-decoration: none;
             transition: all .3s ease-in-out;
-
             &:hover {
-                color: #000000;
+                color: #b1b1b1;
             }
         }
     }
