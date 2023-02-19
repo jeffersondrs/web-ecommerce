@@ -23,7 +23,7 @@ export default function MenuWeb() {
             <Link className="navegation__menu-item" to="/about">
               About
             </Link>
-            <Link className="navegation__menu-item" to="/dashboard">
+            <Link className="navegation__menu-item" to="/support">
               Support
             </Link>
           </div>

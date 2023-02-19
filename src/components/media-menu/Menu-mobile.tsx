@@ -37,7 +37,7 @@ export default function MenuWeb() {
               </Link>
               <Link
                 className=" navegation__menu-m"
-                to="/dashboard"
+                to="/support"
               >
                 Support
               </Link>
