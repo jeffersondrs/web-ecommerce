@@ -4,7 +4,6 @@ import books from "../../data/books.json";
 import clothes from "../../data/clothings.json";
 import office from "../../data/office.json";
 import { Link } from "react-router-dom";
-import Footer from "../footer/Footer";
 
 export default function Products() {
   return (
@@ -76,7 +75,6 @@ export default function Products() {
           </div>
         </section>
       </div>
-      <Footer />
     </>
   );
 }

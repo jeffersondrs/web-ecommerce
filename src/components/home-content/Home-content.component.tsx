@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import CardServices from "./Card-services.component";
 import CardProducts from "../card-product/Card-products";
 import { useEffect, useRef, useState } from "react";
-import Footer from "../footer/Footer";
 
 type email = string;
 
@@ -273,7 +272,6 @@ export default function HomeContent() {
           </div>
         </form>
       </section>
-      <Footer />
     </div>
   );
 }

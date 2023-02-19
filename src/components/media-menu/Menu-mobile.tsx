@@ -1,6 +1,7 @@
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { Link, Outlet } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Footer from "../footer/Footer";
 export default function MenuWeb() {
   const handleMenu = () => {
     const menu = document.querySelector(".navegation_menu-links");
@@ -54,6 +55,7 @@ export default function MenuWeb() {
       </div>
 
       <Outlet />
+      <Footer />
     </div>
   );
 }

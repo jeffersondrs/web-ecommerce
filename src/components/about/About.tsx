@@ -1,4 +1,3 @@
-import Footer from "../footer/Footer";
 
 export default function About() {
   return (
@@ -25,7 +24,7 @@ export default function About() {
           alt="background"
         />
       </div>
-      <Footer />
+      
     </>
   );
 }

@@ -1,6 +1,7 @@
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { Link, Outlet } from "react-router-dom";
 import imagemLogo from "../../assets/logo.png";
+import Footer from "../footer/Footer";
 
 export default function MenuWeb() {
   return (
@@ -27,17 +28,18 @@ export default function MenuWeb() {
             </Link>
           </div>
           <div className="flex flex-row w-24 justify-evenly">
-            <Link className="hover:text-gray-600" to="/cart">
+            <Link className="hover:text-gray-600" to="#">
               <FiShoppingCart />
             </Link>
-            <Link className="hover:text-gray-600" to="/search">
+            <Link className="hover:text-gray-600" to="#">
               <FiSearch />
             </Link>
           </div>
         </div>
       </div>
-      
+
       <Outlet />
+      <Footer />
     </div>
   );
 }
