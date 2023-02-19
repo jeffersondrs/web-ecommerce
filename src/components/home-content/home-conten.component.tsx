@@ -1,17 +1,45 @@
 import { GiLaurelsTrophy, GiTechnoHeart } from "react-icons/gi";
 import { TbShoppingCartPlus } from "react-icons/tb";
 import { BsCashCoin, BsCreditCardFill } from "react-icons/bs";
-import { FaHeadphonesAlt } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaHeadphonesAlt,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { TbTruckDelivery } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import CardServices from "./Card-services.component";
 import CardProducts from "../card-product/Card-products";
+import { useEffect, useRef, useState } from "react";
+
+type email = string;
 
 export default function HomeContent() {
+  const emailRef = useRef(null as any);
+  const [email, setEmail] = useState<email>("");
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+
+    const email = emailRef.current.value;
+
+    setEmail(email);
+  };
+
+  useEffect(() => {
+    emailRef.current.value = "";
+    if (email !== "") {
+      alert("Thank you for subscribing!");
+    }
+  }, [email]);
+
+  console.log(email);
+
   return (
     <div className="home-content">
-      <div className="flex flex-row justify-evenly items-center w-full flex-wrap py-24">
+      <section className="flex flex-row justify-evenly items-center w-full flex-wrap py-24">
         <div className="flex flex-col items-stretch justify-between w-[50%] text-black">
           <p className="text-2xl text-orange-600 my-4">E-commerce</p>
           <h1 className="text-8xl my-2">It's all about you.</h1>
@@ -45,8 +73,8 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="p-5">
+      </section>
+      <section className="p-5">
         <div className="flex flex-col justify-center items-center text-black">
           <h1 className="text-sm uppercase text-orange-600 my-4">
             Our Products
@@ -97,8 +125,8 @@ export default function HomeContent() {
             </Link>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col flex-wrap justify-center items-center">
+      </section>
+      <section className="flex flex-col flex-wrap justify-center items-center mb-5">
         <div className=" text-black mb-10">
           <h3 className="text-sm uppercase text-orange-600 text-center my-4">
             Featured Products
@@ -145,11 +173,11 @@ export default function HomeContent() {
             productId="/product/6"
           />
         </div>
-      </div>
-      <div className="flex flex-row flex-wrap h-64 items-center justify-center">
+      </section>
+      <section className="flex flex-row flex-wrap items-center justify-center py-20 bg-blue-100 h-full">
         <div className="flex flex-col justify-center items-start text-start my-5 w-96 p-5">
-          <h4 className="text-sm uppercase">Testimonials</h4>
-          <h1 className="text-2xl">
+          <h4 className="text-sm uppercase text-orange-600">Testimonials</h4>
+          <h1 className="text-2xl font-semibold">
             What they are sayng about us and our products
           </h1>
           <p className="text-xs">
@@ -157,11 +185,11 @@ export default function HomeContent() {
             connected sales channels
           </p>
           <div className="text-xs flex flex-row w-20 justify-evenly items-center mt-5">
-            <span className="">View More</span>
-            <HiOutlineArrowLongRight />
+            <span>View More</span>
+            <HiOutlineArrowLongRight className="text-sky-600" />
           </div>
         </div>
-        <div className="border bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
+        <div className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
@@ -180,7 +208,7 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-        <div className="border bg-white z-50 w-72 flex flex-col p-2 shadow-2xl h-48 justify-between">
+        <div className="border rounded-sm bg-white z-50 w-72 flex flex-col p-2 shadow-2xl h-48 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
@@ -188,9 +216,7 @@ export default function HomeContent() {
           <div className="flex flex-row-reverse justify-evenly p-1 items-center my-2">
             <div>
               <h4 className="font-semibold">Dolores</h4>
-              <p className="text-xs">
-                CEO, XYZ Company
-              </p>
+              <p className="text-xs">CEO, XYZ Company</p>
             </div>
             <div>
               <img
@@ -201,7 +227,7 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-        <div className="border bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
+        <div className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
@@ -220,7 +246,124 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section>
+        <form
+          action="#"
+          onSubmit={handleSubmit}
+          className="flex flex-col justify-center items-center p-10"
+        >
+          <h1 className="text-2xl font-semibold">
+            Subscribe to our newsletter
+          </h1>
+          <p className="text-xs">
+            list a product once and it will be published across all of your
+            connected sales channels
+          </p>
+          <div className="flex flex-row justify-center items-center mt-5">
+            <input
+              ref={emailRef}
+              className="border rounded-sm p-2 w-96"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button
+              type="submit"
+              className="bg-orange-600 text-white rounded-sm p-2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
+      </section>
+      <footer className="flex flex-col justify-center items-center p-10 bg-gray-800 text-white py-20">
+        <div className="flex flex-row w-full justify-evenly items-start flex-wrap">
+          <div className="flex flex-col justify-evenly items-start m-2 h-56">
+            <h1 className="text-orange-800 uppercase text-xl">Social links</h1>
+            <ul className="flex flex-row justify-between items-start w-40 footer__list">
+              <li className="w-8 h-8 rounded-lg bg-gray-700 flex justify-center items-center">
+                <Link to="#">
+                  <FaFacebookF />
+                </Link>
+              </li>
+              <li className="w-8 h-8 rounded-lg bg-gray-700 flex justify-center items-center">
+                <Link to="#">
+                  <FaTwitter />
+                </Link>
+              </li>
+              <li className="w-8 h-8 rounded-lg bg-gray-700 flex justify-center items-center">
+                <Link to="#">
+                  <FaLinkedinIn />
+                </Link>
+              </li>
+            </ul>
+            <p className="text-sm">Dont forget follow us</p>
+          </div>
+          <div className="m-2 h-56 flex flex-col items-stretch justify-start">
+            <h1 className="mb-3 text-base text-gray-500 hover:text-gray-600">
+              Products
+            </h1>
+            <ul className="text-sm footer__list">
+              <li>
+                <Link to="#">New</Link>
+              </li>
+              <li>
+                <Link to="#">Popular</Link>
+              </li>
+              <li>
+                <Link to="#">Trending</Link>
+              </li>
+              <li>
+                <Link to="#">Best Seller</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="m-2 h-56 flex flex-col items-stretch justify-start">
+            <h1 className="mb-3 text-base text-gray-500 hover:text-gray-600">
+              Support
+            </h1>
+            <ul className="text-sm footer__list">
+              <li>
+                <Link to="#">Help Center</Link>
+              </li>
+              <li>
+                <Link to="#">Terms of Service</Link>
+              </li>
+              <li>
+                <Link to="#">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link to="#">Status</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="m-2 h-56 flex flex-col items-stretch justify-start">
+            <h1 className="mb-3 text-base text-gray-500 hover:text-gray-600">
+              Company
+            </h1>
+            <ul className="text-sm footer__list">
+              <li>
+                <Link to="#">About</Link>
+              </li>
+              <li>
+                <Link to="#">Contact</Link>
+              </li>
+              <li>
+                <Link to="#">Blog</Link>
+              </li>
+              <li>
+                <Link to="#">Careers</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-row justify-evenly items-center w-full flex-wrap text-xs">
+          <strong>© 2021 All rights reserved</strong>
+          <strong>Terms of Service</strong>
+          <strong>Criado por <Link to="https://github.com/jeffersondrs">JeffersonDRS</Link></strong>
+
+        </div>
+      </footer>
     </div>
   );
 }

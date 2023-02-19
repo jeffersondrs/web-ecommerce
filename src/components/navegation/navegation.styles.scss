@@ -25,6 +25,19 @@
             padding: 5px 10px;
             background-color: rgb(3, 144, 238);
             transition: all .3s ease-in-out;
+            animation: 1s ease-in-out 0s 1 slideInFromLeft;
+
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-40%);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+
             &:hover {
                 color: #ffffff;
                 background-color: rgb(27, 111, 167);
