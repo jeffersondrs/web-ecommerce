@@ -1,5 +1,12 @@
+section{
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 5px;
+    transition: all 0.2s ease;
+    transform: scale(1);
+}
 section:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease;
     transform: scale(1.01);
 }

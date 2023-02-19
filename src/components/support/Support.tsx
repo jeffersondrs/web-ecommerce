@@ -6,27 +6,27 @@ export default function Support() {
     <>
       <div className="flex flex-col justify-center items-center p-5">
         <h1 className="text-6xl m-5 p-2">Help center</h1>
-        <div className="grid gap-4 grid-cols-2">
-          <section className="bg-sky-100 w-96 p-3 border border-sky-900 rounded-md shadow-xl">
+        <div className="flex flex-row flex-wrap w-[80%] justify-center ">
+          <section className="bg-sky-100 w-96 border border-sky-900 rounded-md">
             <h2 className="text-4xl">Support freedom</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Quisquam.Lorem ipsum dolor sit amet consectetur adipis
             </p>
           </section>
-          <section className="bg-sky-100 w-96 p-3 border border-sky-900 rounded-md shadow-xl">
+          <section className="bg-sky-100 w-96 border border-sky-900 rounded-md">
             <h2 className="text-4xl">FAQ</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             </p>
           </section>
-          <section className="bg-sky-100 w-96 p-3 border border-sky-900 rounded-md shadow-xl">
+          <section className="bg-sky-100 w-96 border border-sky-900 rounded-md">
             <h2 className="text-4xl">Terms of use</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             </p>
           </section>
-          <section className="bg-sky-100 w-96 p-3 border border-sky-900 rounded-md shadow-xl">
+          <section className="bg-sky-100 w-96 border border-sky-900 rounded-md">
             <h2 className="text-4xl">Privacy policy</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
