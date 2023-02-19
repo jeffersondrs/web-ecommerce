@@ -263,9 +263,10 @@ export default function HomeContent() {
           <div className="flex flex-row justify-center items-center mt-5">
             <input
               ref={emailRef}
-              className="border rounded-sm p-2 w-96"
+              className="border rounded-sm p-2"
               type="email"
               placeholder="Enter your email"
+              id="email"
             />
             <button
               type="submit"

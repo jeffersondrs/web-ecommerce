@@ -9,9 +9,19 @@
     padding: 0;
     margin: 0;
     transition: all 0.3s ease-in-out;
-    li{
-        a:hover{
+
+    li {
+        a:hover {
             color: #504949;
         }
     }
+}
+
+#email {
+    width: 20ch;
+}
+
+#email:focus {
+    transition: all 0.3s ease-in-out;
+    width: 35ch;
 }
