@@ -1,0 +1,66 @@
+[
+  {
+    "id": "17",
+    "name": "Book",
+    "price": 1700,
+    "description": "Book description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80"
+  },
+  {
+    "id": "18",
+    "name": "Magazine",
+    "price": 1800,
+    "description": "Magazine description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1521727696769-849d83dd59db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "id": "19",
+    "name": "Novel",
+    "price": 1900,
+    "description": "Novel description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1614544048536-0d28caf77f41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": "20",
+    "name": "Dictionary",
+    "price": 2000,
+    "description": "Dictionary description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1604187350703-6de3b495f2fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "21",
+    "name": "Textbook",
+    "price": 2100,
+    "description": "Textbook description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1611079830811-865ff4428d17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=917&q=80"
+  },
+  {
+    "id": "22",
+    "name": "Comic Book",
+    "price": 2200,
+    "description": "Comic Book description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "id": "23",
+    "name": "Encyclopedia",
+    "price": 2300,
+    "description": "Encyclopedia description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1524402822060-94f4fb30f6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+  },
+  {
+    "id": "24",
+    "name": "Notebook",
+    "price": 2400,
+    "description": "Notebook description goes here",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+  }
+]

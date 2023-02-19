@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Tablet",
+    "price": 100,
+    "description": "Tablet description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=784&q=80"
+  },
+  {
+    "id": "2",
+    "name": "Laptop",
+    "price": 200,
+    "description": "Laptop description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Smartphone",
+    "price": 300,
+    "description": "Smartphone description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1494366222322-387658a1a976?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Camera",
+    "price": 400,
+    "description": "Camera description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": "5",
+    "name": "Television",
+    "price": 500,
+    "description": "Television description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1558888401-3cc1de77652d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+  },
+  {
+    "id": "6",
+    "name": "Headphones",
+    "price": 600,
+    "description": "Headphones description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&q=80"
+  },
+  {
+    "id": "7",
+    "name": "Watch",
+    "price": 700,
+    "description": "Watch description goes here",
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  }
+]

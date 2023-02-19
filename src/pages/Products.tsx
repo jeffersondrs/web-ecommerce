@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "./pages.styles.scss";
+import ProductList from '../components/products/Products.component';
 
 export default function Products() {
   return (
     <div className="products">
-      <h1>Products</h1>
-      <p>Products page</p>
+      <ProductList />
     </div>
   );
 }

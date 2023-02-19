@@ -1,0 +1,74 @@
+[
+  {
+    "id": "8",
+    "name": "Shoes",
+    "price": 800,
+    "description": "Shoes description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"
+  },
+  {
+    "id": "9",
+    "name": "T-Shirt",
+    "price": 900,
+    "description": "T-Shirt description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": "10",
+    "name": "Pants",
+    "price": 1000,
+    "description": "Pants description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": "11",
+    "name": "Socks",
+    "price": 1100,
+    "description": "Socks description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1615486364462-ef6363adbc18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": "12",
+    "name": "Hat",
+    "price": 1200,
+    "description": "Hat description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1578998987066-88847474960c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": "13",
+    "name": "Sunglasses",
+    "price": 1300,
+    "description": "Sunglasses description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1610136649349-0f646f318053?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": "14",
+    "name": "Shirt",
+    "price": 1400,
+    "description": "Shirt description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+  },
+  {
+    "id": "15",
+    "name": "Belt",
+    "price": 1500,
+    "description": "Belt description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1552224614-2a4345873a96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80"
+  },
+  {
+    "id": "16",
+    "name": "Sweater",
+    "price": 1600,
+    "description": "Sweater description goes here",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1631541909061-71e349d1f203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=705&q=80"
+  }
+]

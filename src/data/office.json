@@ -1,0 +1,50 @@
+[
+  {
+    "id": "25",
+    "name": "Pencil",
+    "price": 2500,
+    "description": "Pencil description goes here",
+    "category": "Office",
+    "image": "https://plus.unsplash.com/premium_photo-1670958553886-d41ba40061df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+  },
+  {
+    "id": "26",
+    "name": "Pen",
+    "price": 2600,
+    "description": "Pen description goes here",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "27",
+    "name": "Stapler",
+    "price": 2700,
+    "description": "Stapler description goes here",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1541690161184-75cbc0386cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+  },
+  {
+    "id": "28",
+    "name": "Paper",
+    "price": 2800,
+    "description": "Paper description goes here",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1527239441953-caffd968d952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": "29",
+    "name": "Notebook",
+    "price": 2900,
+    "description": "Notebook description goes here",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "30",
+    "name": "Eraser",
+    "price": 3000,
+    "description": "Eraser description goes here",
+    "category": "Office",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+  }
+]
