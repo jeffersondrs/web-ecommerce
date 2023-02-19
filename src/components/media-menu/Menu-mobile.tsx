@@ -14,9 +14,7 @@ export default function MenuWeb() {
       <div className="navegation">
         <div className="flex flex-row justify-between px-5 items-center rounded-md bg-sky-500 h-20 py-2 navegation__menu">
           <div onClick={handleMenu} className="hanburguer">
-            <Link to="/">
               <GiHamburgerMenu />
-            </Link>
           </div>
           <div className="hidden w-full navegation_menu-links flex flex-row items-center justify-center">
               <span onClick={handleMenu}>X</span>

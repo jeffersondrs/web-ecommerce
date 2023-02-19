@@ -6,6 +6,7 @@ interface PropsProduct {
   description?: string;
   price: number;
   image: string;
+  className?: string;
 }
 
 export default function CardProducts(props: PropsProduct) {
