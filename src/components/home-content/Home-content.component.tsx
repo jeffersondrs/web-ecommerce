@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import CardServices from "./Card-services.component";
 import CardProducts from "../card-product/Card-products";
 import { useEffect, useRef, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 type email = string;
 
@@ -30,7 +32,12 @@ export default function HomeContent() {
     }
   }, [email]);
 
-  console.log(email);
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      delay: 0,
+    });
+  }, []);
 
   return (
     <div className="home-content">
@@ -48,7 +55,7 @@ export default function HomeContent() {
             </button>
           </div>
         </div>
-        <div className="bg-gray-200 py-12 w-96 h-96 flex justify-center items-center m-5 shadow-2xl">
+        <div data-aos="fade-left" className="bg-gray-200 py-12 w-96 h-96 flex justify-center items-center m-5 shadow-2xl">
           <div className="w-80 h-80 rounded-2xl grid-cols-2 grid gap-2 justify-between product-home">
             <div className="bg-orange-700 w-16 h-16 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl rounded-br-2xl -translate-x-10 -translate-y-4 text-white text-4xl hover:scale-105 transition-transform">
               <TbShoppingCartPlus />
@@ -71,15 +78,15 @@ export default function HomeContent() {
       </section>
       <section className="p-5">
         <div className="flex flex-col justify-center items-center text-black">
-          <h1 className="text-sm uppercase text-orange-600 my-4">
+          <h1 data-aos="fade-right" className="text-sm uppercase text-orange-600 my-4">
             Our Products
           </h1>
-          <p className="text-2xl my-4 w-80 text-center font-bold">
+          <p data-aos="fade-right" data-aos-delay="300" className="text-2xl my-4 w-80 text-center font-bold">
             Our Service will make your life so much more easier
           </p>
         </div>
         <div className="flex flex-row w-full justify-evenly items-center flex-wrap">
-          <div className="hover:scale-105 transition-all">
+          <div data-aos="zoom-out-left" data-aos-delay="0" className="hover:scale-105 transition-all">
             <Link to="/products">
               <CardServices
                 icon={<TbTruckDelivery />}
@@ -89,7 +96,7 @@ export default function HomeContent() {
               />
             </Link>
           </div>
-          <div className="hover:scale-105 transition-all">
+          <div data-aos="zoom-out-left" data-aos-delay="200" className="hover:scale-105 transition-all">
             <Link to="/products">
               <CardServices
                 icon={<BsCashCoin />}
@@ -99,7 +106,7 @@ export default function HomeContent() {
               />
             </Link>
           </div>
-          <div className="hover:scale-105 transition-all">
+          <div data-aos="zoom-out-left" data-aos-delay="600" className="hover:scale-105 transition-all">
             <Link to="/products">
               <CardServices
                 icon={<FaHeadphonesAlt />}
@@ -109,7 +116,7 @@ export default function HomeContent() {
               />
             </Link>
           </div>
-          <div className="hover:scale-105 transition-all">
+          <div data-aos="zoom-out-left" data-aos-delay="1000" className="hover:scale-105 transition-all">
             <Link to="/products">
               <CardServices
                 icon={<BsCreditCardFill />}
@@ -184,7 +191,7 @@ export default function HomeContent() {
             <HiOutlineArrowLongRight className="text-sky-600" />
           </div>
         </div>
-        <div className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
+        <div data-aos="fade-up" className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
@@ -203,7 +210,7 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-        <div className="border rounded-sm bg-white z-50 w-72 flex flex-col p-2 shadow-2xl h-48 justify-between">
+        <div data-aos="fade-up" data-aos-delay="400" className="border rounded-sm bg-white z-50 w-72 flex flex-col p-2 shadow-2xl h-48 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
@@ -222,7 +229,7 @@ export default function HomeContent() {
             </div>
           </div>
         </div>
-        <div className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
+        <div data-aos="fade-up" data-aos-delay="800" className="border rounded-sm bg-white z-50 w-64 flex flex-col p-2 shadow-2xl h-44 justify-between">
           <strong className="text-sm">
             "The best product I have ever seen. I am very happy with the
             quality"
