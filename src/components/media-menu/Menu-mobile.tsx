@@ -13,7 +13,7 @@ export default function MenuWeb() {
   return (
     <div>
       <div className="navegation">
-        <div className="flex flex-row justify-between px-5 items-center rounded-md bg-sky-500 h-20 py-2 navegation__menu">
+        <div className="flex flex-row justify-between px-5 items-center bg-sky-500 h-20 py-2 navegation__menu">
           <div onClick={handleMenu} className="hanburguer">
               <GiHamburgerMenu />
           </div>

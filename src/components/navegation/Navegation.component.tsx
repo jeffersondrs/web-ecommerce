@@ -7,5 +7,9 @@ type IsWeb = boolean;
 export default function Navegation() {
   let mql = window.matchMedia("(max-width: 768px)");
 
-  return <div>{mql.matches ? <MenuMobile /> : <MenuWeb />}</div>;
+  return (
+    <div>
+      {mql.matches ? <MenuMobile /> : <MenuWeb />}
+      </div>
+  );
 }

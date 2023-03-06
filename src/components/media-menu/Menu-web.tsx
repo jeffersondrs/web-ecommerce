@@ -7,10 +7,10 @@ export default function MenuWeb() {
   return (
     <div>
       <div className="navegation">
-        <div className="flex flex-row justify-between px-5 items-center rounded-md bg-sky-500 h-14 py-2">
+        <div className="flex flex-row justify-between px-10 items-center bg-transparent h-24">
           <div className="navegation__logo">
             <Link to="/">
-              <img className="w-12" src={imagemLogo} alt="logo" />
+              <img className="w-20 h-20 bg-center rounded-full object-cover" src="https://plus.unsplash.com/premium_photo-1670462145715-c32d0c91e81b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="logo" />
             </Link>
           </div>
           <div className="flex flex-row flex-wrap h-12 justify-between items-center uppercase navegation__menu">
@@ -28,10 +28,10 @@ export default function MenuWeb() {
             </Link>
           </div>
           <div className="flex flex-row w-24 justify-evenly">
-            <Link className="hover:text-gray-600" to="#">
+            <Link className="text-black hover:text-gray-600" to="#">
               <FiShoppingCart />
             </Link>
-            <Link className="hover:text-gray-600" to="#">
+            <Link className="text-black hover:text-gray-600" to="#">
               <FiSearch />
             </Link>
           </div>

@@ -1,5 +1,4 @@
 .navegation {
-    padding: 5px 5px;
     z-index: 100;
     width: 100%;
     color: #ffffff;
@@ -45,7 +44,7 @@
 
         .navegation__menu-item {
             margin: 5px 20px;
-            color: #ffffff;
+            color: #000000;
             text-decoration: none;
             transition: all .3s ease-in-out;
             &:hover {
